@@ -2366,6 +2366,11 @@
       "integrity": "sha1-Ge+YdMSuHCl7zweP3mOgm2aoQ2M=",
       "dev": true
     },
+    "foundation-apps": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/foundation-apps/-/foundation-apps-1.1.0.tgz",
+      "integrity": "sha1-urkXW+qLXSN8qH/j7MIUqtM9z5w="
+    },
     "fresh": {
       "version": "0.5.0",
       "resolved": "https://registry.npmjs.org/fresh/-/fresh-0.5.0.tgz",

@@ -80,6 +80,7 @@
     "extract-text-webpack-plugin": "3.0.0",
     "file-loader": "^0.8.1",
     "fork-ts-checker-webpack-plugin": "^0.2.8",
+    "foundation-apps": "1.1.0",
     "fuse.js": "^3.2.0",
     "glob": "^4.5.3",
     "happypack": "^4.0.0",

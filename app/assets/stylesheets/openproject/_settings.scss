@@ -30,7 +30,7 @@
 //  24. Tabs
 //  25. Title Bar
 
-@import "vendor/foundation-apps/helpers/functions";
+@import "helpers/functions";
 
 // 1. CSS Exports
 // - - - - - - - - - - - - - - -
@@ -38,32 +38,32 @@
 // Change any value in this map from "true" to "false" to disable that component's CSS class output. You'll still be able to use the component's mixins, but none of our pre-written classes will be in your CSS.
 
 $include-css: (
-        accordion: false,
-        action-sheet: false,
-        block-list: false,
-        button: false,
-        button-group: false,
-        card: true,
-        coloring: false,
-        extras: false,
-        forms: false,
-        grid: true,
-        iconic: false,
-        label: true,
-        badge: false,
-        list: false,
-        menu-bar: false,
-        modal: true,
-        motion: false,
-        notification: true,
-        off-canvas: false,
-        panel: false,
-        popup: false,
-        switch: false,
-        tabs: false,
-        title-bar: false,
-        typography: true,
-        utilities: true,
+  accordion: false,
+  action-sheet: false,
+  block-list: false,
+  button: false,
+  button-group: false,
+  card: true,
+  coloring: false,
+  extras: false,
+  forms: false,
+  grid: true,
+  iconic: false,
+  label: true,
+  badge: false,
+  list: false,
+  menu-bar: false,
+  modal: true,
+  motion: false,
+  notification: true,
+  off-canvas: false,
+  panel: false,
+  popup: false,
+  switch: false,
+  tabs: false,
+  title-bar: false,
+  typography: true,
+  utilities: true,
 );
 
 // 2. Global Styles
@@ -120,13 +120,13 @@ $include-css: (
 
 // These are our named breakpoints. You can use them in our breakpoint function like this: @include breakpoint(medium) { // Medium and larger styles }
 $breakpoints: (
-        tiny: rem-calc(0),
-        small: rem-calc(480),
-        medium: rem-calc(640),
-        large: rem-calc(1200),
-        xlarge: rem-calc(1440),
-        xxlarge: rem-calc(1920),
-        xxxlarge: rem-calc(2048),
+  tiny: rem-calc(0),
+  small: rem-calc(480),
+  medium: rem-calc(640),
+  large: rem-calc(1200),
+  xlarge: rem-calc(1440),
+  xxlarge: rem-calc(1920),
+  xxxlarge: rem-calc(2048),
 );
 
 // All of the names in this list will be output as classes in your CSS, like small-12, medium-6, and so on.
