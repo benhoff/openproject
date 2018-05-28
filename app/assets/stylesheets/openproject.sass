@@ -32,12 +32,11 @@ $asset-pipeline: function-exists(font-url)
 
 // Variables
 @import openproject/variables
-// Foundation variables
-@import openproject/settings
+// Foundation
+@import vendor/foundation-apps/settings
+@import vendor/foundation-apps/foundation
 
-// Dependencies
 @import bourbon
-@import foundation
 
 // Frontend styles
 @import bundles/openproject-core-app
@@ -45,6 +44,6 @@ $asset-pipeline: function-exists(font-url)
 // Core styles
 @import fonts/index
 @import openproject/index
-@import vendor/index
 @import layout/index
 @import content/index
+@import vendor/index
